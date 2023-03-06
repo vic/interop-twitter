@@ -6,14 +6,14 @@
 
 This library provides capability to convert Twitter `Future` into ZIO `Task`.
 
-[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/interop-twitter/workflows/CI/badge.svg) [![Sonatype Releases](https://img.shields.io/nexus/r/https/oss.sonatype.org/dev.zio/zio-interop-twitter_2.13.svg?label=Sonatype%20Release)](https://oss.sonatype.org/content/repositories/releases/dev/zio/zio-interop-twitter_2.13/) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-interop-twitter_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-interop-twitter_2.13/) [![javadoc](https://javadoc.io/badge2/dev.zio/zio-interop-twitter_2.13/javadoc.svg)](https://javadoc.io/doc/dev.zio/zio-interop-twitter_2.13) [![ZIO Interop Twitter](https://img.shields.io/github/stars/zio/interop-twitter?style=social)](https://github.com/zio/interop-twitter)
+[![Production Ready](https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg)](https://github.com/zio/zio/wiki/Project-Stages) ![CI Badge](https://github.com/zio/interop-twitter/workflows/CI/badge.svg) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/dev.zio/zio-interop-twitter_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/dev/zio/zio-interop-twitter_2.13/) [![ZIO Interop Twitter](https://img.shields.io/github/stars/zio/interop-twitter?style=social)](https://github.com/zio/interop-twitter)
 
 ## Installation
 
 In order to use this library, we need to add the following line in our `build.sbt` file:
 
 ```scala
-libraryDependencies += "dev.zio" %% "zio-interop-twitter" % "21.2.0.1.2"
+libraryDependencies += "dev.zio" %% "zio-interop-twitter" % "<version>"
 ```
 
 ## Example
